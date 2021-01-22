@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northside Youth Soccer League Home</title>
+    <link href="CSS/WEBdesign1.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Northside Youth Soccer League </h1> 
+    </header>  
+    <nav>
+        <div id="navegacion">
+            <a  href="Contact.html">Contact</a>
+            <a  href="Formulario.html">Formulario de Inscripción</a>
+            <a  href="Juegos.html">Información del Juego</a>
+            <a  href="Reglas.html">Reglas y Politicas</a>
+            <a  href="About.html">About</a>
+            <a  href="Home.html">Home</a>
+        </div>
+        <img id="imgportada"src="Img/design1_image1.jpg"/>
+    <div id="titulo_centro"><h2>Formulario de Inscripción</h2>
+    </div>    
+    </nav>
+    <div id="section">
+            <img id="logo" src="Img/nysl_logo.png">
+            <form action="show_data.html" method="GET" class="texto-lado">
+            <div id="header">
+                    <div class="apj" id="datospersonales">
+                    <div id="nj">
+                    <label for="namejugador">Nombre del Jugador:</label>
+                    <input type="text" name="namejugador" placeholder="Pon tu Nombre">
+                    </div>
+                    <div id="apj">
+                    <label for="apjugador">Apellido:</label>
+                    <input type="text" name="apjugador" placeholder="Pon tu Apellido">
+                    </div>
+                    </div>
+                    <div class="apj" id="domicilioo">
+                    <label for="addressjugador">Dirección:</label>
+                    <input type="text"name="addressjugador" placeholder="Pon tu Dirección"> 
+                    </div>
+                <div class="apj" id="city">
+                    <div id="lugar">
+                    <label for="cityjugador">Ciudad:</label>
+                    <input type="text" name="cityjugador" placeholder="Indica tu Ciudad">
+                    </div>
+                    <div id="codigo">
+                    <label for="codposjugador">Código Postal:</label>
+                    <input type="text" name="codposjugador" placeholder="Código Postal">
+                    </div>
+                </div>
+                <div class="apj" id="regisdate">
+                    <div id="date">
+                    <label for="fechanac">Fecha de nacimiento:</label>
+                    <input type="date" name="fechanac">
+                    </div>
+                    <div id="sex">
+                    <label for="sexo">Género:</label>
+                    <input type="checkbox"  name="sexo" groupName="sexo" value="Masculino">Masculino
+                    <input type="checkbox"  name="sexo" groupName="sexo" value="Femenino">Femenino
+                    </div>
+                </div>
+                <div class="apj" id="niva">
+                    <label for="nivacademic">Grado:</label>
+                    <input type="checkbox"  name="nivacademic" groupName="Grado" value="Preescolar">Preescolar
+                    <input type="checkbox"  name="nivacademic" groupName="Grado" value="1°">1°
+                    <input type="checkbox"  name="nivacademic" groupName="Grado" value="2°">2°
+                    <input type="checkbox"  name="nivacademic" groupName="Grado" value="3°">3°
+                    <input type="checkbox"  name="nivacademic" groupName="Grado" value="4°">4°
+                    <input type="checkbox"  name="nivacademic" groupName="Grado" value="5°">5°
+                </div>
+            </div>
+            <div class="body">
+                <p><h3>¿De que escuela vives mas cerca?</h3></p>
+                <p><h4>Escuela más cercana:</h4></p>
+                <div class="school">
+                    <label for="school"></label>
+                    <div class="stiloschool">
+                    <input type="checkbox" name="school" id="school" value="AJKatzenmaier">AJ Katzenmaier
+                    </div>
+                    <div class="stiloschool">
+                    <input type="checkbox" name="school" id="school" value="MarjoriePHart">Marjorie P Hart
+                    </div>
+                    <div class="stiloschool">
+                    <input type="checkbox" name="school" id="school" value="Greenbay">Greenbay
+                    </div>
+                    <div class="stiloschool">
+                    <input type="checkbox" name="school" id="school" value="NorthElementary">North Elementary
+                    </div>
+                    <div class="stiloschool">
+                    <input type="checkbox" name="school" id="school" value="HowardAYeager">Howard A Yeager
+                    </div>
+                    <div class="stiloschool">
+                    <input type="checkbox" name="school" id="school" value="SouthElementary">South Elementary
+                    </div>
+                </div>
+                <p><h3>¿Qué posición(es) juegas normalmente?(Marque todas las que correspondan)</h3></p>
+                <div class="puesto">
+                    <label for="puesto"></label>
+                    <div class="estilopuesto">
+                    <input type="checkbox"  name="puesto" groupName="formación" value="Delantero" >Delantero
+                    </div>
+                    <div class="estilopuesto">
+                    <input type="checkbox"  name="puesto" groupName="formación" value="Mediocampo" >Mediocampo
+                    </div>
+                    <div class="estilopuesto">
+                    <input type="checkbox"  name="puesto" groupName="formación" value="Portero" >Portero
+                    </div>
+                    <div class="estilopuesto">
+                    <input type="checkbox"  name="puesto" groupName="formación" value="Defensa">Defensa
+                    </div>
+                </div>
+            <p><h3>Tamaño Uniforme</h3></p>
+                <div class="uniforme">
+                    <label for="uniforme"></label>
+                    <div class="estilouniforme">
+                    <input type="radio"  name="uniforme" groupName="talla" value="nino p">Niño P
+                    </div>
+                    <div class="estilouniforme">
+                    <input type="radio"  name="uniforme" groupName="talla" value="mediano">Mediano
+                    </div>
+                    <div class="estilouniforme">
+                    <input type="radio"  name="uniforme" groupName="talla" value="nino m">Niño M
+                    </div>
+                    <div class="estilouniforme">
+                    <input type="radio"  name="uniforme" groupName="talla" value="grande">Grande
+                    </div>
+                    <div class="estilouniforme">
+                    <input type="radio"  name="uniforme" groupName="talla" value="nino g">Niño G
+                    </div>
+                    <div class="estilouniforme">
+                    <input type="radio"  name="uniforme" groupName="talla" value="nino extra grande">Extra-Grande
+                    </div>
+                    <div class="estilouniforme">
+                    <input type="radio"  name="uniforme" groupName="talla" value="pequeño">Pequeño
+                    </div>
+                    <div class="estilouniforme"></div>
+                </div>
+            </div>
+            <div class="footer">
+            <p><h3>Permiso para jugar</h3></p>
+            <p>
+                Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y
+                yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad
+                de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro
+                para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y
+                personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra
+                cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del
+                solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
+                Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco
+                que he leído la política de cancelación y acepto sus términos.
+            </p>
+            <div class="declaracion" id="confirmacion">
+                <div id="representante">
+                <label for="namedad">Firma Padre/Tutor:</label>
+                <input type="text" name="namedad" placeholder="Ingrese Nombre Padre/Tutor">
+                </div>
+                <div id="fregistro">
+                <label for="fechare">Fecha registro:</label>
+                <input type="text" name="fechare" placeholder="dd-mm-aaaa">
+                </div>
+            </div>
+            <br> 
+            <input type="submit" value="Enviar Registro">
+        </div>
+            </form>
+    </div>
+    </body>
+    </html>
